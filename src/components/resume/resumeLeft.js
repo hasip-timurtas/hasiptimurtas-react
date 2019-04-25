@@ -99,39 +99,72 @@ class Example extends React.Component {
 			<span className="resume-slash">//</span> <span className="resume-header">Certificates</span>
 			<div className="line"></div>
 			
-			<div className="certificate" data-src="img/certificates/smartpro.jpg" onClick={this.showPic}> 
-				<img src="img/certificates/smartpro.jpg" data-src="img/certificates/smartpro.jpg"/>
-				Software and Database Expertise - SmartPro 2011
+			<div className="certificate row" data-src="img/certificates/smartpro.jpg" onClick={this.showPic}> 
+				<div className="col-md-4"> <img src="img/certificates/smartpro.jpg" data-src="img/certificates/smartpro.jpg"/></div> 
+				
+				<div className="col-md-8">Software and Database Expertise - SmartPro 2011</div>
 			</div>
 
-			<div className="certificate" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" onClick={this.showPic}> 
-			<img src="img/certificates/BA-outstanding-chievement-certificate.jpg" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" />
-				Software and Database Expertise - Bilge Adam 2013
+			<div className="certificate row" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" onClick={this.showPic}> 
+				<div className="col-md-4"> 
+					<img src="img/certificates/BA-outstanding-chievement-certificate.jpg" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" />
+				</div> 
+				
+				<div className="col-md-8">
+					Software and Database Expertise - Bilge Adam 2013
+				</div>
 			</div>
 
-			<div className="certificate" data-src="img/certificates/BA-atandance.jpg" onClick={this.showPic}> 
-			<img src="img/certificates/BA-atandance.jpg" data-src="img/certificates/BA-atandance.jpg"/>
-				Software and Database Expertise 2 - Bilge Adam 2013
+			<div className="certificate row" data-src="img/certificates/BA-atandance.jpg" onClick={this.showPic}> 
+					<div className="col-md-4"> 
+						<img src="img/certificates/BA-atandance.jpg" data-src="img/certificates/BA-atandance.jpg"/>		
+					</div> 
+					
+					<div className="col-md-8">
+						Software and Database Expertise 2 - Bilge Adam 2013
+					</div>
+
 			</div>
 
-			<div className="certificate" data-src="img/certificates/MS-html-css.jpg" onClick={this.showPic}> 
-				<img src="img/certificates/MS-html-css.jpg" data-src="img/certificates/MS-html-css.jpg"/>
-				Microsoft Certificate of attendance - Programming in HTML 5 with Javascript and CSS3
+			<div className="certificate row" data-src="img/certificates/MS-html-css.jpg" onClick={this.showPic}> 
+					<div className="col-md-4"> 
+						<img src="img/certificates/MS-html-css.jpg" data-src="img/certificates/MS-html-css.jpg"/>
+					</div> 
+					
+					<div className="col-md-8">
+						Microsoft Certificate of attendance - Programming in HTML 5 with Javascript and CSS3
+					</div>
+	
 			</div>
 
-			<div className="certificate" data-src="img/certificates/MS-promgraiming-charp.jpg" onClick={this.showPic}> 
-			<img src="img/certificates/MS-promgraiming-charp.jpg" data-src="img/certificates/MS-promgraiming-charp.jpg"/>
-				Microsoft Certificate of attendance - Programming in C#
+			<div className="certificate row" data-src="img/certificates/MS-promgraiming-charp.jpg" onClick={this.showPic}> 
+					<div className="col-md-4"> 
+						<img src="img/certificates/MS-promgraiming-charp.jpg" data-src="img/certificates/MS-promgraiming-charp.jpg"/>
+					</div> 
+					
+					<div className="col-md-8">
+						Microsoft Certificate of attendance - Programming in C#
+					</div>
 			</div>
 
-			<div className="certificate" data-src="img/certificates/MS-azure.jpg" onClick={this.showPic}> 
-			<img src="img/certificates/MS-azure.jpg" data-src="img/certificates/MS-azure.jpg"/>
-				Microsoft Certificate of attendance - Developing windows Azure and Web Services
+			<div className="certificate row" data-src="img/certificates/MS-azure.jpg" onClick={this.showPic}> 
+					<div className="col-md-4"> 
+						<img src="img/certificates/MS-azure.jpg" data-src="img/certificates/MS-azure.jpg"/>
+					</div> 
+					
+					<div className="col-md-8">
+						Microsoft Certificate of attendance - Developing windows Azure and Web Services
+					</div>
 			</div>
 
-			<div className="certificate" data-src="img/certificates/MS-mvc.jpg" onClick={this.showPic}> 
-			<img src="img/certificates/MS-mvc.jpg" data-src="img/certificates/MS-mvc.jpg"/>
-				Microsoft Certificate of attendance - Developing ASP.NET 4.5 MVC Web Applications
+			<div className="certificate row" data-src="img/certificates/MS-mvc.jpg" onClick={this.showPic}> 
+					<div className="col-md-4"> 
+						<img src="img/certificates/MS-mvc.jpg" data-src="img/certificates/MS-mvc.jpg"/>
+					</div> 
+					
+					<div className="col-md-8">
+						Microsoft Certificate of attendance - Developing ASP.NET 4.5 MVC Web Applications
+					</div>
 			</div>
 
 		</div>
