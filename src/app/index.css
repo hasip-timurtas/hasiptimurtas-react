@@ -3,10 +3,10 @@
     margin-right: auto;
 }
 
-.2resume-pic {
+.resume-pic {
   -webkit-border-radius: 125px;
--moz-border-radius: 125px;
-border-radius: 125px;
+  -moz-border-radius: 125px;
+  border-radius: 125px;
 }
 
 .certificate img{
