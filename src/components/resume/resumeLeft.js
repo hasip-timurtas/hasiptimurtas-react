@@ -35,8 +35,8 @@ class Example extends React.Component {
         <>
         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 resume-left">
 
-		<div className="resume-pic" data-src="office.jpg">
-			<img src="img/resume.jpg" data-src="img/resume.jpg" alt="hasip timurtaş resume pic" onClick={this.showPic}/>
+		<div data-src="office.jpg">
+			<img src="img/resume.jpg" className="resume-pic" data-src="img/resume.jpg" alt="hasip timurtaş resume pic" onClick={this.showPic}/>
 		</div>
 
 		<div className="resume-profile">
