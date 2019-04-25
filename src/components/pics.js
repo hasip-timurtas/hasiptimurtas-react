@@ -38,24 +38,20 @@ class Example extends React.Component {
               <div className="row">
                   <div className="md-col-12 images text-center">
                       
-                      
-                      
-                      <img src="img/capri.jpg" alt="A day in capri island in Italy" onClick={this.showPic}/>
-                      
-                     
-                      
                       <img src="img/IstanbulTechnicalUniversty.jpg" alt="Istanbul Technical Universty in winter.." onClick={this.showPic}/>
-                      
                       <img src="img/montevideo.jpg" alt="great moments from Montevideo, Uruguay " onClick={this.showPic}/>
                       <img src="img/avea.jpg" alt="A day in Avea" onClick={this.showPic}/>
                       <img src="img/kari-istanbul.jpg" alt="A day in Istanbul before going Elma Pup :)" onClick={this.showPic}/>
                       <img src="img/itu.jpg" alt="Istanbul Technical Universty in spring.." onClick={this.showPic}/>
-                      <img src="img/kari-uruguay.jpg" alt="A day in Uruguay With my love with a good view! " onClick={this.showPic}/>
+                      <img src="img/kari-italy-first.jpg" alt="having fun" onClick={this.showPic}/>
                       <img src="img/bowling.jpg" alt="having fun" onClick={this.showPic}/>
+                      
                       <img src="img/award.jpg" alt="An old picture from IT Symposium" onClick={this.showPic}/>
                       <img src="img/gulhane.jpg" alt="Istanbul Sultan Ahmet" onClick={this.showPic}/>
                       <img src="img/resting.jpg" alt="Resting.." onClick={this.showPic}/>
                       <img src="img/italy-k.jpg" alt="A day in Italy With my love! " onClick={this.showPic}/>
+                      <img src="img/kari-uruguay.jpg" alt="A day in Uruguay With my love with a good view! " onClick={this.showPic}/>
+                      
                       <img src="img/suleymaniye.jpg" alt="A good view from Suleymaniye, Istanbul" onClick={this.showPic}/>
                       <img src="img/seminar.jpg" alt="Was a good seminar.."onClick={this.showPic}/>
                       <img src="img/office.jpg" alt="Working.." onClick={this.showPic}/>
