@@ -3,6 +3,12 @@
     margin-right: auto;
 }
 
+a{
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .resume-pic {
   -webkit-border-radius: 125px;
   -moz-border-radius: 125px;

@@ -14,6 +14,7 @@ const header = (props) => {
 						<strong className="resume-title">Javascript Developer - Remote</strong>
 						<p className="job-detail">
 						Cretating trading bots, strategies, reports, analysis, blokchain development with nodejs and python, creating UI with nodejs & reactjs, managing data with mongoDB, firebase, managing applications with ubuntu, centos.
+						<br /><br /><br /><br />
 						</p>
 					</div>
 				</div>

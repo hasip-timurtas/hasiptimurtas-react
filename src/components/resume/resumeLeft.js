@@ -8,7 +8,6 @@ class Example extends React.Component {
   
       this.handleShow = this.handleShow.bind(this);
       this.handleClose = this.handleClose.bind(this);
-      this.showPic = this.showPic.bind(this);
       this.state = {
         show: false,
         alt:'',
@@ -24,19 +23,14 @@ class Example extends React.Component {
       this.setState({ show: true });
     }
 
-    showPic(e){
-			console.log(e.target)
-        this.setState({ show: true, src: e.target.getAttribute('data-src')});
-    }
-  
     render() {
         const {alt, src} = this.state
       return (
         <>
         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 resume-left">
 
-		<div data-src="office.jpg">
-			<img src="img/resume.jpg" className="resume-pic" data-src="img/resume.jpg" alt="hasip timurtaş resume pic" onClick={this.showPic}/>
+		<div>
+			<img src="img/resume.jpg" className="resume-pic" alt="hasip timurtaş resume pic" onClick={e=> this.setState({ show: true, src:"img/resume.jpg"})}/>
 		</div>
 
 		<div className="resume-profile">
@@ -99,15 +93,15 @@ class Example extends React.Component {
 			<span className="resume-slash">//</span> <span className="resume-header">Certificates</span>
 			<div className="line"></div>
 			
-			<div className="certificate row" data-src="img/certificates/smartpro.jpg" onClick={this.showPic}> 
-				<div className="col-md-4"> <img src="img/certificates/smartpro.jpg" data-src="img/certificates/smartpro.jpg"/></div> 
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src: "img/certificates/smartpro.jpg"})}> 
+				<div className="col-md-4"> <img src="img/certificates/smartpro.jpg" /></div> 
 				
 				<div className="col-md-8">Software and Database Expertise - SmartPro 2011</div>
 			</div>
-
-			<div className="certificate row" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" onClick={this.showPic}> 
+	
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src: "img/certificates/BA-outstanding-chievement-certificate.jpg"})}> 
 				<div className="col-md-4"> 
-					<img src="img/certificates/BA-outstanding-chievement-certificate.jpg" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" />
+					<img src="img/certificates/BA-outstanding-chievement-certificate.jpg"  />
 				</div> 
 				
 				<div className="col-md-8">
@@ -115,9 +109,9 @@ class Example extends React.Component {
 				</div>
 			</div>
 
-			<div className="certificate row" data-src="img/certificates/BA-atandance.jpg" onClick={this.showPic}> 
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src:"img/certificates/BA-atandance.jpg"})}> 
 					<div className="col-md-4"> 
-						<img src="img/certificates/BA-atandance.jpg" data-src="img/certificates/BA-atandance.jpg"/>		
+						<img src="img/certificates/BA-atandance.jpg" />		
 					</div> 
 					
 					<div className="col-md-8">
@@ -126,9 +120,9 @@ class Example extends React.Component {
 
 			</div>
 
-			<div className="certificate row" data-src="img/certificates/MS-html-css.jpg" onClick={this.showPic}> 
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src:"img/certificates/MS-html-css.jpg"})}> 
 					<div className="col-md-4"> 
-						<img src="img/certificates/MS-html-css.jpg" data-src="img/certificates/MS-html-css.jpg"/>
+						<img src="img/certificates/MS-html-css.jpg" />
 					</div> 
 					
 					<div className="col-md-8">
@@ -137,9 +131,9 @@ class Example extends React.Component {
 	
 			</div>
 
-			<div className="certificate row" data-src="img/certificates/MS-promgraiming-charp.jpg" onClick={this.showPic}> 
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src:"img/certificates/MS-promgraiming-charp.jpg"})}> 
 					<div className="col-md-4"> 
-						<img src="img/certificates/MS-promgraiming-charp.jpg" data-src="img/certificates/MS-promgraiming-charp.jpg"/>
+						<img src="img/certificates/MS-promgraiming-charp.jpg"/>
 					</div> 
 					
 					<div className="col-md-8">
@@ -147,9 +141,9 @@ class Example extends React.Component {
 					</div>
 			</div>
 
-			<div className="certificate row" data-src="img/certificates/MS-azure.jpg" onClick={this.showPic}> 
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src:"img/certificates/MS-azure.jpg"})}> 
 					<div className="col-md-4"> 
-						<img src="img/certificates/MS-azure.jpg" data-src="img/certificates/MS-azure.jpg"/>
+						<img src="img/certificates/MS-azure.jpg"/>
 					</div> 
 					
 					<div className="col-md-8">
@@ -157,9 +151,9 @@ class Example extends React.Component {
 					</div>
 			</div>
 
-			<div className="certificate row" data-src="img/certificates/MS-mvc.jpg" onClick={this.showPic}> 
+			<div className="certificate row" onClick={e=> this.setState({ show: true, src:"img/certificates/MS-mvc.jpg"})}> 
 					<div className="col-md-4"> 
-						<img src="img/certificates/MS-mvc.jpg" data-src="img/certificates/MS-mvc.jpg"/>
+						<img src="img/certificates/MS-mvc.jpg"/>
 					</div> 
 					
 					<div className="col-md-8">
