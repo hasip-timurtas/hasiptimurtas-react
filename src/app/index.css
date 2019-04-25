@@ -3,6 +3,11 @@
     margin-right: auto;
 }
 
+.certificate img{
+  width:70px !important;
+  /*float:left;*/
+}
+
 .text-indent{
   text-indent: 50px;
 }

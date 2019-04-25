@@ -25,7 +25,8 @@ class Example extends React.Component {
     }
 
     showPic(e){
-        this.setState({ show: true, src: 'img/certificates/'+e.target.getAttribute('data-src')});
+			console.log(e.target)
+        this.setState({ show: true, src: e.target.getAttribute('data-src')});
     }
   
     render() {
@@ -35,7 +36,7 @@ class Example extends React.Component {
         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-3 resume-left">
 
 		<div className="resume-pic" data-src="office.jpg">
-			<img src="img/resume.jpg" />
+			<img src="img/resume.jpg" data-src="img/resume.jpg" alt="hasip timurtaş resume pic" onClick={this.showPic}/>
 		</div>
 
 		<div className="resume-profile">
@@ -98,31 +99,38 @@ class Example extends React.Component {
 			<span className="resume-slash">//</span> <span className="resume-header">Certificates</span>
 			<div className="line"></div>
 			
-			<div className="certificate" data-src="smartpro.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/smartpro.jpg" onClick={this.showPic}> 
+				<img src="img/certificates/smartpro.jpg" data-src="img/certificates/smartpro.jpg"/>
 				Software and Database Expertise - SmartPro 2011
 			</div>
 
-			<div className="certificate" data-src="BA-outstanding-chievement-certificate.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" onClick={this.showPic}> 
+			<img src="img/certificates/BA-outstanding-chievement-certificate.jpg" data-src="img/certificates/BA-outstanding-chievement-certificate.jpg" />
 				Software and Database Expertise - Bilge Adam 2013
 			</div>
 
-			<div className="certificate" data-src="BA-atandance.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/BA-atandance.jpg" onClick={this.showPic}> 
+			<img src="img/certificates/BA-atandance.jpg" data-src="img/certificates/BA-atandance.jpg"/>
 				Software and Database Expertise 2 - Bilge Adam 2013
 			</div>
 
-			<div className="certificate" data-src="MS-html-css.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/MS-html-css.jpg" onClick={this.showPic}> 
+				<img src="img/certificates/MS-html-css.jpg" data-src="img/certificates/MS-html-css.jpg"/>
 				Microsoft Certificate of attendance - Programming in HTML 5 with Javascript and CSS3
 			</div>
 
-			<div className="certificate" data-src="MS-promgraiming-charp.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/MS-promgraiming-charp.jpg" onClick={this.showPic}> 
+			<img src="img/certificates/MS-promgraiming-charp.jpg" data-src="img/certificates/MS-promgraiming-charp.jpg"/>
 				Microsoft Certificate of attendance - Programming in C#
 			</div>
 
-			<div className="certificate" data-src="MS-azure.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/MS-azure.jpg" onClick={this.showPic}> 
+			<img src="img/certificates/MS-azure.jpg" data-src="img/certificates/MS-azure.jpg"/>
 				Microsoft Certificate of attendance - Developing windows Azure and Web Services
 			</div>
 
-			<div className="certificate" data-src="MS-mvc.jpg" onClick={this.showPic}> 
+			<div className="certificate" data-src="img/certificates/MS-mvc.jpg" onClick={this.showPic}> 
+			<img src="img/certificates/MS-mvc.jpg" data-src="img/certificates/MS-mvc.jpg"/>
 				Microsoft Certificate of attendance - Developing ASP.NET 4.5 MVC Web Applications
 			</div>
 

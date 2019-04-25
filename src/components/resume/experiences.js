@@ -27,7 +27,7 @@ const header = (props) => {
 						<span className="job-company">Plutio</span> 
 						<strong className="resume-title"> Javascript Developer (Remote) - London</strong>
 						<p className="job-detail">
-						Here we were working with the project named <a href="https://www.plutio.com" target="_blank"> Plutio</a>. When I started to work with this project, the other workers lave this company because of payment issues.
+						Here we were working with the project named <a href="https://www.plutio.com" target="_blank"> Plutio</a>. When I started to work with this project, There was a team but they left the company with the reason I do not know.
 						Then I became the only developer for all the project. I was new but I learn the development environment quickly then started to develop, add new modules to the project. It was a Meteorjs & Reactjs project. 
 						 <br /><br />
 						Technologies: Meteorjs, ReacJS, NodeJs, MongoDB, Ubuntu

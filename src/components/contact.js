@@ -13,10 +13,6 @@ const contact = (props) => {
 					<i className="fa fa-linkedin"></i>
 				</a>
 
-				<a className="btn btn-social-icon btn-lg btn-google" href="https://plus.google.com/+hasipTimurtas" target="_blank">
-					<i className="fa fa-google"></i>
-				</a>
-
 				<a className="btn btn-social-icon btn-lg btn-github" href="https://github.com/hasip-timurtas" target="_blank">
 					<i className="fa fa-github" ></i>
 				</a>
@@ -25,7 +21,7 @@ const contact = (props) => {
 					<i className="fa fa-facebook"></i>
 				</a>		
 
-				<a className="btn btn-social-icon btn-lg btn-instagram" href="https://www.instagram.com/hasip.timurtas" target="_blank">
+				<a className="btn btn-social-icon btn-lg btn-instagram" href="https://www.instagram.com/hasip.karina" target="_blank">
 					<i className="fa fa-instagram"></i>
 				</a>	
 
