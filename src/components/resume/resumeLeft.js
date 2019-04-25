@@ -34,7 +34,7 @@ class Example extends React.Component {
 		</div>
 
 		<div className="resume-profile">
-			<span className="resume-slash">//</span> <span className="resume-header">Profile</span>
+			<span className="resume-slash">//</span> <span className="resume-header">Profile</span> <br/>
 			<div className="line"></div>
 
 			<strong>Name</strong> <br /> 
@@ -64,7 +64,7 @@ class Example extends React.Component {
 			<a href="http://www.hasiptimurtas.com">www.hasiptimurtas.com</a> 
 		</div>
 		<div className="resume-social">
-			<span className="resume-slash">//</span> <span className="resume-header">Social</span>
+			<span className="resume-slash">//</span> <span className="resume-header">Social</span> <br/>
 			<div className="line"></div>
 
 			/hasiptimurtas
