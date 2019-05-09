@@ -1,40 +1,43 @@
 import React from 'react'
 import Layout from './layout'
-const videos = (props) => {
+import axios from 'axios'
+
+export default class Videos extends React.Component {
   
-  return (
-    <Layout className="home"> 
-        <div className="education-videos">
-            <div className="container">
-                <h2>Educational Videos</h2>
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="education-video col-md-4">
-                            <iframe src="https://www.youtube.com/embed/nz2p9xIT2es" classNameName="embed-responsive-item"
-                                    allowfullscreen>
-                            </iframe>
-                            <h5>How to Deploy Meteorjs Application</h5>
-                        </div>
-                        <div className="education-video col-md-4">
-                            <iframe src="https://www.youtube.com/embed/IylVwlyR9-4" classNameName="embed-responsive-item"
-                                    allowfullscreen>
-                            </iframe>
-                            <h5>Create Ubuntu server on Digital Ocean</h5>
-                        </div>
-                        <div className="education-video col-md-4">
-                            <iframe src="https://www.youtube.com/embed/TEdDaJpZfss" classNameName="embed-responsive-item"
-                                    allowfullscreen>
-                            </iframe>
-                            <h5>Visual Studio Console Application</h5>
+  constructor(props) {
+    super(props);
+    this.state = {videos:null}
+  }
+
+  componentDidMount(){
+    axios.get('https://www.googleapis.com/youtube/v3/search?key=AIzaSyDxDY2_n2XA4mF3RWTFXRuu0XrLCkYYG4s&channelId=UCdEuV9HA6HcSDNEJpDnRV3A&part=snippet,id&order=date')
+    .then(response => this.setState({videos: response}))
+  }
+  
+  render() {
+      const {videos} = this.state
+      const videosData = videos && videos.data.items.map((e,i)=><div key={i} className="education-video">
+                                                    <iframe width="300" height="175"  src={'https://www.youtube.com/embed/'+e.id.videoId} className="embed-responsive-item"
+                                                            allowFullScreen>
+                                                    </iframe>
+                                                    <h5>{e.snippet.title}</h5>
+                                                </div>)
+
+    return (
+        <Layout className="home"> 
+            <div className="education-videos">
+                <div className="container">
+                    <h2>Educational Videos</h2>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="row">
+                                {videosData}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </Layout>
-
-    
-  )
-};
-
-export default videos;
+        </Layout>
+    );
+  }
+}

@@ -11,7 +11,7 @@ const navbar = (props) => {
 
                 <ul className="navbar-nav text-center">
                     <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/videos">Videos</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/videos">Educational Videos</a></li>
                 </ul>
 
         </div>
