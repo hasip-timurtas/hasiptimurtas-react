@@ -87,7 +87,7 @@ a{
 
 .mht-resume {
   height: 800px;
-
+  padding-top: 25px;
   font-size: 12px;
 }
 
@@ -186,6 +186,10 @@ a{
 }
 
 /*   RESUME RIGHT    */
+
+.resume-right{
+  padding-top: 25px;
+}
 
 .about-me {
   font-family: Lato, arial, sans-serif;
