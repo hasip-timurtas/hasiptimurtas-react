@@ -68,7 +68,7 @@ const header = (props) => {
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row enfortek">
 					<div className="col-md-2 experience-date">
 							08.2011 - 07.2012
 					</div>
