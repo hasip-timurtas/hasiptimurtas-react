@@ -7,10 +7,12 @@ export default class Videos extends React.Component {
   constructor(props) {
     super(props);
     this.state = {videos:null}
+    this.youtubeApiKey = 'AIzaSyDFXgqvEPj3a6cPjfDAMAqRvENi1Rj7euA'
+    this.youtubeChannelId = 'UCdEuV9HA6HcSDNEJpDnRV3A'
   }
 
   componentDidMount(){
-    axios.get('https://www.googleapis.com/youtube/v3/search?key=AIzaSyDxDY2_n2XA4mF3RWTFXRuu0XrLCkYYG4s&channelId=UCdEuV9HA6HcSDNEJpDnRV3A&part=snippet,id&order=date')
+    axios.get(`https://www.googleapis.com/youtube/v3/search?key=${this.youtubeApiKey}&channelId=${this.youtubeChannelId}&part=snippet,id&order=date`)
     .then(response => this.setState({videos: response}))
   }
   
