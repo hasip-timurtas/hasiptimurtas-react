@@ -87,7 +87,6 @@ a{
 
 .mht-resume {
   height: 800px;
-  padding-top: 25px;
   font-size: 12px;
 }
 
@@ -95,6 +94,7 @@ a{
 .resume-left {
   text-align: right;
   background-color: #F1F1F1;
+  padding-top: 25px;
 }
 
 .resume-left img {
