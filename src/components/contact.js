@@ -9,6 +9,10 @@ const contact = (props) => {
 				<h2>Hasip Timurtaş</h2>
 				<h4>Full stack developer</h4>
 				<h2>Contact</h2>
+				<a className="btn btn-social-icon btn-lg btn-youtube" style={{width: "61px"}} href="https://www.youtube.com/channel/UCdEuV9HA6HcSDNEJpDnRV3A" target="_blank">
+					<i className="fa fa-youtube-play fa-2x" style={{fontSize: '3em', color: 'red', width:'61px'}}></i>
+				</a>
+
 				<a className="btn btn-social-icon btn-lg btn-linkedin" href="https://www.linkedin.com/in/hasiptimurtas" target="_blank">
 					<i className="fa fa-linkedin"></i>
 				</a>
