@@ -10,7 +10,7 @@ const header = (props) => {
           <span className="job-company">Videoslots</span>
           <strong className="resume-title">Front End Developer</strong>
           <p className="job-detail">
-            Working with VueJS in front-end to and PHP in back-end to add new features and fix bugs to the existing projects.
+            Working with VueJS in front-end and PHP in back-end to add new features and fix bugs to the existing projects.
             <br />
             <br />
             <br />
