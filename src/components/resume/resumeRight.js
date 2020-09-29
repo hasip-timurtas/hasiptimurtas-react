@@ -23,6 +23,9 @@ const header = (props) => {
         </div>
       </div>
       <br />
+      <span className="resume-slash">//</span> <span className="resume-header">Experience</span>
+      <div className="line"></div>
+      <Experiences />
       <span className="resume-slash">//</span> <span className="resume-header">Educations</span>
       <div className="line"></div>
       <div className="resume-educations">
@@ -36,9 +39,6 @@ const header = (props) => {
         </div>
       </div>
       <br />
-      <span className="resume-slash">//</span> <span className="resume-header">Experience</span>
-      <div className="line"></div>
-      <Experiences />
     </div>
   );
 };

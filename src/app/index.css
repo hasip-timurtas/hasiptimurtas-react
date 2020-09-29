@@ -1,9 +1,9 @@
-.text-center{
-    margin-left: auto;
-    margin-right: auto;
+.text-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a{
+a {
   color: inherit;
   text-decoration: none;
   background-color: transparent;
@@ -15,16 +15,16 @@ a{
   border-radius: 125px;
 }
 
-.certificate img{
-  width:70px !important;
+.certificate img {
+  width: 70px !important;
   /*float:left;*/
 }
 
-.text-indent{
+.text-indent {
   text-indent: 50px;
 }
 
-.modal-dialog{
+.modal-dialog {
   max-width: 800px !important;
 }
 
@@ -88,13 +88,13 @@ a{
 .mht-resume {
   height: 800px;
   font-size: 12px;
-  padding:0;
+  padding: 0;
 }
 
 /*   RESUME LEFT    */
 .resume-left {
   text-align: right;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   padding-top: 25px;
 }
 
@@ -107,7 +107,7 @@ a{
   margin-top: 10px;
   background: white;
   padding: 5px;
-  border: 3px #E0DADA solid;
+  border: 3px #e0dada solid;
 }
 
 .resume-profile {
@@ -148,20 +148,19 @@ a{
 .resume-slash {
   font-size: 18px;
   font-weight: bold;
-  color: #C7C5C5;
+  color: #c7c5c5;
 }
 
 .resume-header {
   font-size: 18px;
-  color: #DE8629;
+  color: #de8629;
   font-weight: bold;
 }
 
 .line {
   height: 1px;
-  background-color: #DEDEDE;
+  background-color: #dedede;
   margin: 10px 0px 10px 0px;
-
 }
 
 .resume-social {
@@ -188,12 +187,12 @@ a{
 
 /*   RESUME RIGHT    */
 
-.resume-right{
+.resume-right {
   padding-top: 25px;
 }
 
-.enfortek{
-  margin-top:20px;
+.enfortek {
+  margin-top: 20px;
 }
 
 .about-me {
@@ -204,7 +203,7 @@ a{
 
 .experience-date {
   font-size: 12px;
-  color: #DE8629;
+  color: #de8629;
   font-weight: bold;
   text-align: center;
   margin-top: 4px;
@@ -266,26 +265,30 @@ a{
 
 .education-video {
   text-align: center;
-  width:300px;
-  margin-left:25px;
+  width: 300px;
+  margin-left: 25px;
 }
 
 @media only screen and (max-width: 480px) {
   .images.images img {
-      width: 12%;
+    width: 12%;
   }
 }
 
 @media print {
   .resume-print {
-      display: none;
+    display: none;
   }
 
   .resume-certificate small {
-      display: none;
+    display: none;
   }
 
   .line {
-      display: none;
+    display: none;
+  }
+
+  .resume-certificate {
+    display: none;
   }
 }

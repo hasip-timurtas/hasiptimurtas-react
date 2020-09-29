@@ -8,11 +8,9 @@ const header = (props) => {
 
         <div className="col-md-10">
           <span className="job-company">Videoslots</span>
-          <strong className="resume-title">Front End Developer</strong>
+          <strong className="resume-title">Front End Developer - Malta</strong>
           <p className="job-detail">
             Working with VueJS in front-end and PHP in back-end to add new features and fix bugs to the existing projects.
-            <br />
-            <br />
             <br />
             <br />
           </p>
@@ -26,10 +24,8 @@ const header = (props) => {
           <span className="job-company">Freelance</span>
           <strong className="resume-title">Full Stack Developer - Remote</strong>
           <p className="job-detail">
-            Cretating trading bots, strategies, reports, analysis, blokchain development with nodejs and python, creating UI with nodejs & reactjs,
-            managing data with mongoDB, firebase, managing applications with ubuntu, centos.
-            <br />
-            <br />
+            Creating trading bots, strategies, reports, analysis, blokchain development with nodejs, creating UI with nodejs & reactjs, managing data
+            with mongoDB, firebase, managing applications with ubuntu, centos.
             <br />
             <br />
           </p>
