@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-social/bootstrap-social.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
-import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./routes";
 
 /**

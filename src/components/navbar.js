@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const navbar = (props) => {
   return (
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <div className="container-fluid">
         <div className="navbar-header">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             <img className="block" id="u1235_img" src="img/logo1.png" alt="" width="72" height="80" />
-          </a>
+          </Link>
         </div>
 
         <ul className="navbar-nav text-center">
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/#/videos">
+            <Link className="nav-link" to="/videos">
               Videos
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
