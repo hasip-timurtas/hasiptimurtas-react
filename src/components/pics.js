@@ -45,7 +45,7 @@ class Example extends React.Component {
                 <img src="img/kari-italy-first.jpg" alt="having fun" onClick={this.showPic} />
                 <img src="img/bowling.jpg" alt="having fun" onClick={this.showPic} />
 
-                <img src="img/award.jpg" alt="An old picture from IT Symposium" onClick={this.showPic} />
+                <img src="img/award.jpg" alt="An old picture from IT Symposium 2011" onClick={this.showPic} />
                 <img src="img/gulhane.jpg" alt="Istanbul Sultan Ahmet" onClick={this.showPic} />
                 <img src="img/resting.jpg" alt="Resting.." onClick={this.showPic} />
                 <img src="img/italy-k.jpg" alt="A day in Italy With my love! " onClick={this.showPic} />
