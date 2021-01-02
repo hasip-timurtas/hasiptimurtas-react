@@ -1,5 +1,3 @@
 #!/bin/bash
 npm run build
-cd build
-zip -r build.zip .
-unzip -o build.zip -d /home/hasip/public_html/
+scp -r ./build/* root@95.179.168.245:/home/hasip/public_html/
