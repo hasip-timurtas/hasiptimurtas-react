@@ -8,49 +8,37 @@ const header = (props) => {
 
                 <div className="col-md-10">
                     <span className="job-company">Videoslots</span>
-                    <strong className="resume-title">Front End Developer - Malta</strong>
+                    <strong className="resume-title">Full Stack Developer - Malta</strong>
                     <p className="job-detail">
-                        Working with VueJS in front-end and PHP in back-end to add new features and fix bugs to the existing projects.
-            <br />
+                        • Designing and implementing high-availability and scalable applications, surrounded by microservices and third-party APIs. <br />
+                        • Working on test automation tool with Nodejs, Cypress <br />
+                        • Working on the frontend with VueJS framework <br />
+                        • Working on the backend with PHP, MySQL, LXC containers, Redis, GraphQL<br />
                         <br />
                     </p>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-md-2 experience-date">05.2017 - 01.2020</div>
+                <div className="col-md-2 experience-date">10.2016 - 01.2020</div>
 
                 <div className="col-md-10">
                     <span className="job-company">Freelance</span>
                     <strong className="resume-title">Full Stack Developer - Remote</strong>
                     <p className="job-detail">
-                        Creating trading bots, strategies, reports, analysis, blokchain development with nodejs, creating UI with nodejs & reactjs, managing data
-                        with mongoDB, firebase, managing applications with ubuntu, centos.
+                        <strong>Plutio</strong>  <br />
+About 8 months I was working on a project named  <a href="https://www.plutio.com" target="_blank">
+                            {" "}
+              Plutio
+            </a>. I was adding new modules to the project. It was a Meteorjs & Reactjs project.<br /><br />
+
+                        <strong>Cryptocurrency Trading Bot</strong><br />
+Then I started to create a trading bot for cryptocurrency markets with an investor. Here my tasks were creating web apps, mobile apps, trading bots, strategies, reports, analysis, blockchain development with Nodejs and python, creating UI with Nodejs & Reactjs, managing data with MongoDB, Firebase, managing applications with Ubuntu, Centos.
+<br />
+Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
             <br />
                         <br />
                     </p>
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="col-md-2 experience-date">10.2016 - 05.2017</div>
-
-                <div className="col-md-10">
-                    <span className="job-company">Plutio</span>
-                    <strong className="resume-title"> Full Stack Developer (Remote) - London</strong>
-                    <p className="job-detail">
-                        Here we were working with the project named{" "}
-                        <a href="https://www.plutio.com" target="_blank">
-                            {" "}
-              Plutio
-            </a>
-            . When I started to work with this project, There was a team but they left the company then I became the
-            only developer for all the project. I was new but I learn the development environment quickly then started to develop, add new modules to
-            the project. It was a Meteorjs & Reactjs project.
-            <br />
-                        <br />
-            Technologies: Meteorjs, ReacJS, NodeJs, MongoDB, Ubuntu
-          </p>
                 </div>
             </div>
 
