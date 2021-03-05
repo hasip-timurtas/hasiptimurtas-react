@@ -63,7 +63,7 @@ class Example extends React.Component {
             <br />
             <br />
             <strong>Website</strong> <br />
-            <a href="http://www.hasiptimurtas.com">www.hasiptimurtas.com</a>
+            <a href="http://www.hasip.dev">www.hasip.dev</a>
           </div>
           <div className="resume-social">
             <span className="resume-slash">//</span> <span className="resume-header">Social</span> <br />
