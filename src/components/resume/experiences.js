@@ -10,7 +10,7 @@ const header = (props) => {
                     <span className="job-company">Videoslots</span>
                     <strong className="resume-title">Full Stack Developer - Malta</strong>
                     <p className="job-detail">
-                        • Designing and implementing high-availability and scalable applications, surrounded by microservices and third-party APIs. <br />
+                        • Designing and implementing high-availability and scalable applications surrounded by microservices <br />
                         • Working on test automation tool with Nodejs, Cypress <br />
                         • Working on the frontend with VueJS framework <br />
                         • Working on the backend with PHP, MySQL, LXC containers, Redis, GraphQL<br />
