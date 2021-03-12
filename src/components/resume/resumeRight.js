@@ -30,7 +30,7 @@ const header = (props) => {
       <div className="line"></div>
       <div className="resume-educations">
         <div className="row">
-          <div className="col-md-2 experience-date">15.09.2010</div>
+          <div className="col-md-2 experience-date">09.2010 - 06.2013</div>
 
           <div className="col-md-7">
             <strong>Associate degree - Computer Technology and Programming </strong>
