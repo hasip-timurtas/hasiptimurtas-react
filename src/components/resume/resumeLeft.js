@@ -45,7 +45,7 @@ class Example extends React.Component {
             <br />
             <br />
             <strong>Experience</strong> <br />
-            {new Date().getFullYear() - 2010} Years
+            10+ Years
             <br />
             <br />
             <strong>Address</strong> <br />
@@ -55,7 +55,7 @@ class Example extends React.Component {
             <br />
             <br />
             <strong>Phone</strong> <br />
-            +356 790 12551
+            +356 9933 9240
             <br />
             <br />
             <strong>Email</strong> <br />
@@ -63,7 +63,7 @@ class Example extends React.Component {
             <br />
             <br />
             <strong>Website</strong> <br />
-            <a href="http://www.hasip.dev">hasip.dev</a>
+            <a href="https://www.hasip.dev">hasip.dev</a>
           </div>
           <div className="resume-social">
             <span className="resume-slash">//</span> <span className="resume-header">Social</span> <br />
