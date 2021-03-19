@@ -68,6 +68,7 @@ class Example extends React.Component {
           <div className="resume-social">
             <span className="resume-slash">//</span> <span className="resume-header">Social</span> <br />
             <div className="line"></div>
+            <br />
             /hasiptimurtas
             <a href="https://www.linkedin.com/in/hasiptimurtas" className="btn btn-social-icon btn-xs btn-linkedin" target="_blank">
               <i className="fa fa-linkedin"></i>
@@ -78,9 +79,9 @@ class Example extends React.Component {
               <i className="fa fa-github"></i>
             </a>
             <br />
-            +hasipTimurtas
-            <a href="https://plus.google.com/+hasipTimurtas" className="btn btn-social-icon btn-xs btn-google" target="_blank">
-              <i className="fa fa-google"></i>
+            /hasip-timurtas
+            <a className="btn btn-social-icon btn-xs btn btn-openid" href="https://stackoverflow.com/users/3705980/hasip-timurtas" target="_blank">
+                <i className="fa fa-stack-overflow"></i>
             </a>
             <br />
             @hasip_timurtas

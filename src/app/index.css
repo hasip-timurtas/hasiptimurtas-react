@@ -269,6 +269,10 @@ a {
   margin-left: 25px;
 }
 
+.resume-social .btn-xs {
+    margin-left: 5px;
+}
+
 @media only screen and (max-width: 480px) {
   .images.images img {
     width: 12%;
