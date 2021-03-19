@@ -68,7 +68,6 @@ class Example extends React.Component {
           <div className="resume-social">
             <span className="resume-slash">//</span> <span className="resume-header">Social</span> <br />
             <div className="line"></div>
-            <br />
             /hasiptimurtas
             <a href="https://www.linkedin.com/in/hasiptimurtas" className="btn btn-social-icon btn-xs btn-linkedin" target="_blank">
               <i className="fa fa-linkedin"></i>
