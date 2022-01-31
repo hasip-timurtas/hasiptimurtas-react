@@ -78,6 +78,10 @@ const header = (props) => {
                         <br />
                         <br />
                         Technologies: ASP.NET, VB.Net, C#,MSSQL, PL / SQL, MongoDB, JavaScript, Nodejs, Meteorjs, Reactjs, Html, Css
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     </p>
                 </div>
             </div>
