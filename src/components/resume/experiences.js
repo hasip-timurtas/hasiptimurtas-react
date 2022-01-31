@@ -4,7 +4,27 @@ const header = (props) => {
     return (
         <>
             <div className="row">
-                <div className="col-md-2 experience-date">02.2020 - ...</div>
+                <div className="col-md-2 experience-date">05.2021 - ...</div>
+
+                <div className="col-md-10">
+                    <span className="job-company">Odin Services</span>
+                    <strong className="resume-title">Senior Full Stack Developer - Malta</strong>
+                    <p className="job-detail">
+                        Here in this company, I am responsible develop and solving the problems of 3 brands also a back-office application. Mainly I am adding new features to our brands and our back-office.
+                        <br /> <br />
+                        Here is some technical information about the projects and skills: <br />
+                        • Working with the projects written with AngularJS, Angular, Reactjs, Typescript in Frontend. <br />
+                        • Working with the projects written in Nodejs, Typescript in Backend. <br />
+                        • Working with microservices to keep the projects independent. <br />
+                        • Working with PostgreSQL, MongoDB and Redis to store data.<br />
+                        • Working with web services to maintain the connection with the project. <br />
+                        <br />
+                    </p>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-md-2 experience-date">02.2020 - 05.2021</div>
 
                 <div className="col-md-10">
                     <span className="job-company">Videoslots</span>
@@ -27,16 +47,16 @@ const header = (props) => {
                     <strong className="resume-title">Full Stack Developer - Remote</strong>
                     <p className="job-detail">
                         <strong>Plutio</strong>  <br />
-About 8 months I was working on a project named  <a href="https://www.plutio.com" target="_blank">
+                        About 8 months I was working on a project named  <a href="https://www.plutio.com" target="_blank">
                             {" "}
-              Plutio
-            </a>. I was adding new modules to the project. It was a Meteorjs & Reactjs project.<br /><br />
+                            Plutio
+                        </a>. I was adding new modules to the project. It was a Meteorjs & Reactjs project.<br /><br />
 
                         <strong>Cryptocurrency Trading Bot</strong><br />
-Then I started to create a trading bot for cryptocurrency markets with an investor. Here my tasks were creating web apps, mobile apps, trading bots, strategies, reports, analysis, blockchain development with Nodejs and python, creating UI with Nodejs & Reactjs, managing data with MongoDB, Firebase, managing applications with Ubuntu, Centos.
-<br />
-Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
-            <br />
+                        Then I started to create a trading bot for cryptocurrency markets with an investor. Here my tasks were creating web apps, mobile apps, trading bots, strategies, reports, analysis, blockchain development with Nodejs and python, creating UI with Nodejs & Reactjs, managing data with MongoDB, Firebase, managing applications with Ubuntu, Centos.
+                        <br />
+                        Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
+                        <br />
                         <br />
                     </p>
                 </div>
@@ -55,10 +75,10 @@ Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
                         (a big database keeping 15 million people’s informations and working datas for telecommunication). Also we had an Asp.Net web application
                         for call center workers, the web aplication has modules for managing BSCS database (adding a new customer, giving compain, customer and
                         usage reports etc.).
-            <br />
                         <br />
-            Technologies: ASP.NET, VB.Net, C#,MSSQL, PL / SQL, MongoDB, JavaScript, Nodejs, Meteorjs, Reactjs, Html, Css
-          </p>
+                        <br />
+                        Technologies: ASP.NET, VB.Net, C#,MSSQL, PL / SQL, MongoDB, JavaScript, Nodejs, Meteorjs, Reactjs, Html, Css
+                    </p>
                 </div>
             </div>
 
@@ -73,10 +93,10 @@ Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
                         Asp.Net MVC, Entity Framework and created websites. I created 3 corporate website templates then I was editing the design of this
                         templates for selling. While I was working there, the company sold more than 10 websites. Line Software was a good company for me it gave
                         me a level of independence, that helped me to develop myself as a full stack developer.
-            <br />
                         <br />
-            Technologies: Asp.Net,C#, VB.Net, MVC, Entity Framework, Linq, Lambda, MsSql, JavaScript, JQuery, HTML, CSS
-          </p>
+                        <br />
+                        Technologies: Asp.Net,C#, VB.Net, MVC, Entity Framework, Linq, Lambda, MsSql, JavaScript, JQuery, HTML, CSS
+                    </p>
                 </div>
             </div>
 
@@ -91,10 +111,10 @@ Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
                         team which was creating websites for several companies. Also the company was working with their own software for government agencies. I
                         was helping to develop the company's software with C#, MsSql and Devexpress tool. here I created more than 10 websites with my developer
                         team.
-            <br />
                         <br />
-            Technologies: Asp.Net,C#, Entity Framework, Lambda, MsSql, JavaScript, JQuery, HTML, CSS
-          </p>
+                        <br />
+                        Technologies: Asp.Net,C#, Entity Framework, Lambda, MsSql, JavaScript, JQuery, HTML, CSS
+                    </p>
                 </div>
             </div>
 
@@ -108,10 +128,10 @@ Technologies: JavaScript, Nodejs, Meteorjs, Reactjs, MongoDB, Html, CSS
                         repairing computers, for 8 months I was working with it. Then I was wondering how to make websites so I started to learn html, css with
                         front-end developers. Then I started to create websites for one year. In one year, the development team and me created about 24 websites
                         for small corporates using html, css, javascript, php.
-            <br />
                         <br />
-            Technologies: PHP, MySql, HTML, CSS
-          </p>
+                        <br />
+                        Technologies: PHP, MySql, HTML, CSS
+                    </p>
                 </div>
             </div>
         </>
