@@ -41,7 +41,7 @@ class Example extends React.Component {
             <span className="resume-slash">//</span> <span className="resume-header">Profile</span> <br />
             <div className="line"></div>
             <strong>Name</strong> <br />
-            M. Hasip Timurtaş
+            Hasip Timurtas
             <br />
             <br />
             <strong>Experience</strong> <br />
@@ -49,9 +49,7 @@ class Example extends React.Component {
             <br />
             <br />
             <strong>Address</strong> <br />
-            Av. de Portugal, 95, 03130 Santa Pola
-            <br />
-            Alacante, Spain
+            Santa Pola, Spain
             <br />
             <br />
             <strong>Phone</strong> <br />
