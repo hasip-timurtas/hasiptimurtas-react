@@ -6,8 +6,8 @@ export default class Videos extends React.Component {
   constructor(props) {
     super(props);
     this.state = { videos: null };
-    this.youtubeApiKey = "AIzaSyCVuDrbz4uGtL9z367vCCyzePpengqOA2U";
-    this.youtubeChannelId = "UCdEuV9HA6HcSDNEJpDnRV3A";
+    this.youtubeApiKey = "";
+    this.youtubeChannelId = "";
   }
 
   componentDidMount() {
