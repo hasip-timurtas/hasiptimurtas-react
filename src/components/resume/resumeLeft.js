@@ -45,17 +45,17 @@ class Example extends React.Component {
             <br />
             <br />
             <strong>Experience</strong> <br />
-            10+ Years
+            15+ Years
             <br />
             <br />
             <strong>Address</strong> <br />
-            8, Flat 1, Triq Manoel De Vilhena
+            Av. de Portugal, 95, 03130 Santa Pola
             <br />
-            Griza, Malta
+            Alacante, Spain
             <br />
             <br />
             <strong>Phone</strong> <br />
-            +356 9933 9240
+            +34 607 434 608
             <br />
             <br />
             <strong>Email</strong> <br />
@@ -80,7 +80,7 @@ class Example extends React.Component {
             <br />
             /hasip-timurtas
             <a className="btn btn-social-icon btn-xs btn btn-openid" href="https://stackoverflow.com/users/3705980/hasip-timurtas" target="_blank">
-                <i className="fa fa-stack-overflow"></i>
+              <i className="fa fa-stack-overflow"></i>
             </a>
             <br />
             @hasip_timurtas
@@ -98,14 +98,25 @@ class Example extends React.Component {
             <small> click certificate for image</small>
             <span className="resume-slash">//</span> <span className="resume-header">Certificates</span>
             <div className="line"></div>
-            <div className="certificate row" onClick={(e) => this.setState({ show: true, src: "img/certificates/smartpro.jpg" })}>
+
+            <div className="certificate row" onClick={(e) => this.setState({ show: true, src: "img/certificates/machine-learning.png" })}>
               <div className="col-md-4">
                 {" "}
-                <img src="img/certificates/smartpro.jpg" />
+                <img src="img/certificates/machine-learning.png" />
               </div>
 
-              <div className="col-md-8">Software and Database Expertise - SmartPro 2011</div>
+              <div className="col-md-8">Machine Learning - London University 2024</div>
             </div>
+
+            <div className="certificate row" onClick={(e) => this.setState({ show: true, src: "img/certificates/cloud-computing.png" })}>
+              <div className="col-md-4">
+                {" "}
+                <img src="img/certificates/cloud-computing.png" />
+              </div>
+
+              <div className="col-md-8">Cloud Computing - IBM 2021</div>
+            </div>
+
             <div
               className="certificate row"
               onClick={(e) => this.setState({ show: true, src: "img/certificates/BA-outstanding-chievement-certificate.jpg" })}
@@ -150,6 +161,14 @@ class Example extends React.Component {
               </div>
 
               <div className="col-md-8">Microsoft Certificate of attendance - Developing ASP.NET 4.5 MVC Web Applications</div>
+            </div>
+            <div className="certificate row" onClick={(e) => this.setState({ show: true, src: "img/certificates/smartpro.jpg" })}>
+              <div className="col-md-4">
+                {" "}
+                <img src="img/certificates/smartpro.jpg" />
+              </div>
+
+              <div className="col-md-8">Software and Database Expertise - SmartPro 2011</div>
             </div>
           </div>
         </div>
